@@ -24,7 +24,6 @@ FPS = 60
 VEL = 10
 
 
-
 def movement_left(keys_pressed, LEFT_RECTANGLE):
     if keys_pressed[pygame.K_s]:
         if LEFT_RECTANGLE.y > 480:
